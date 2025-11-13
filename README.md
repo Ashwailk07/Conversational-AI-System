@@ -1,7 +1,11 @@
-Conversational AI System is a full-stack MERN application that provides an AI-powered chat experience along with user and project management features. The system combines a Node.js/Express backend, a React-based frontend, and optional Redis caching to deliver fast, intelligent responses from an integrated AI model. It is designed to function as a scalable, modular platform for building AI-driven applications.
+The Conversational AI System is a full-stack MERN platform that enables real-time group communication enhanced by intelligent AI support. Users can join shared chat rooms, collaborate instantly, and exchange messages through a live WebSocket-powered system. Integrated into the platform is Google Gemini, which provides on-demand AI assistance for answering questions, summarizing discussions, generating code, and helping users debug or execute programming tasks. Alongside its collaborative features, the system allows users to run code directly through supported backend endpoints, giving developers immediate, in-chat feedback on logic or syntax issues. Combined with a clean React interface and a structured Node.js/Express backend, the project delivers a powerful environment where teamwork, learning, and AI-driven productivity come together seamlessly.
 
-On the backend, the project exposes organized API routes for AI interactions, user accounts, and project data. Services such as ai.service.js, user.service.js, and project.service.js separate business logic cleanly, while redis.service.js supports caching or performance optimizations. The server acts as the central hub that communicates with external AI providers and handles database operations.
+real-time group chat
 
-On the frontend, users interact with a modern interface built with React and Vite. It enables real-time conversation with the AI service, supports displaying and managing project data, and performs standard authentication flows. The UI communicates with backend endpoints via REST API calls, creating a smooth full-stack user experience.
+AI assistance
 
-Overall, the project demonstrates a complete production-style architecture: clear separation of backend and frontend, reusable services, scalable routes, and AI integration. It serves as a practical template for applications involving chatbots, AI assistants, or any system that blends machine intelligence with web technologies.
+Gemini integration
+
+code-execution help
+
+a smooth, professional tone
